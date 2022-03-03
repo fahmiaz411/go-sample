@@ -1,7 +1,7 @@
 package go_sample
 
-func Hello() string {
-	return "Hello world"
+func Hello(name string) string {
+	return "Hello " + name
 }
 
 func Sum(num1, num2 int) int {
